@@ -20,6 +20,6 @@ export const Icon: FC<porpsType> = ({ id,width,height,viewBox }) => {
 
 
 const IconStyled = styled.svg`
- 
+ /* stroke:currentColor; */
 `;
 

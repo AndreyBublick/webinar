@@ -5,7 +5,7 @@ export const theme = {
         width:'2px',
         radius:'5px',
     },
-    container:'1000px',
+    container:'1180px',
 
         fontSize:{
             h1Title:'44px',

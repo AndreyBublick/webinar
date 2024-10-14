@@ -16,6 +16,7 @@ export const Button: FC<propsType> = ({ textBody }) => {
 
 
 const ButtonStyled = styled.button`
+
     border:${theme.border.width} solid ${theme.colors.main};
     background:transparent;
     color:${theme.colors.main};
@@ -24,7 +25,10 @@ const ButtonStyled = styled.button`
     font-size: ${theme.fontSize.baseSize};
     padding:0 2.1955em;
     line-height:2.25;
-
+    @media (max-width:400px) {
+    font-size: 12px;
+        
+    }
 `;
 
 
